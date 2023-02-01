@@ -1,0 +1,9 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-button {
+  width: 249px;
+  position: relative;
+  background-color: rgb(249, 247, 247);
+}
