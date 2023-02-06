@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Newsroom</title>
+   <style>.home-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-navbar-container {
+  top: 0;
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: sticky;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.home-navbar {
+  width: 100%;
+  height: 81px;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-left-side {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-burger-menu {
+  display: none;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+}
+.home-icon {
+  width: 36px;
+  height: 36px;
+}
+.home-links-container {
+  left: 56px;
+  bottom: 20px;
+  display: flex;
+  position: absolute;
+  align-self: flex-end;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.home-home {
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.home-news {
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.home-events {
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.home-contact-e-u {
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.home-right-side {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-mobile-menu {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  height: 100VH;
+  display: none;
+  padding: var(--dl-space-space-doubleunit);
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #fff;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-image {
+  width: 50px;
+  align-self: center;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.home-close-menu {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.home-links-container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-link {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-link2 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-link3 {
+  text-decoration: none;
+}
+.home-hero {
+  width: 100%;
+  height: 766px;
+  display: flex;
+  opacity: 1;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  padding-top: var(--dl-space-space-tenunits);
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tenunits);
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1559589688-6ba6beafe1e5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEwfHxldXJvcGV8ZW58MHx8fHwxNjc0Njc3NTEy&ixlib=rb-4.0.3&w=1500");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.home-heading {
+  top: 115px;
+  left: 27px;
+  color: rgb(8, 0, 0);
+  width: 778px;
+  height: 178px;
+  position: absolute;
+  text-align: center;
+}
+.home-content-container {
+  top: 292px;
+  left: 172px;
+  width: 366px;
+  display: flex;
+  position: absolute;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tenunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tenunits);
+  justify-content: center;
+}
+.home-text {
+  top: 7px;
+  right: -228px;
+  position: absolute;
+  font-weight: 700;
+}
+.home-text01 {
+  line-height: 1.7;
+}
+.home-text02 {
+  line-height: 1.7;
+}
+.home-text10 {
+  left: 269px;
+  color: var(--dl-color-gray-black);
+  bottom: 95px;
+  position: absolute;
+  font-size: 22px;
+  font-weight: 700;
+  border-color: #0811a9;
+  border-width: 30px;
+  border-radius: var(--dl-radius-radius-radius24);
+  background-color: rgb(8, 17, 169);
+}
+.home-container2 {
+  top: 561px;
+  left: 300px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  position: absolute;
+}
+.home-features {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tenunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+}
+.home-heading-container {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.home-text13 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.home-cards-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-features-card {
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.home-icon-container {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-right: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+.home-icon04 {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
+}
+.home-text-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-heading1 {
+  margin-bottom: var(--dl-space-space-tripleunit);
+}
+.home-text14 {
+  color: rgb(53, 52, 52);
+  font-size: 20px;
+  text-align: left;
+}
+.home-features-card1 {
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.home-icon-container1 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-right: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+.home-icon07 {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
+}
+.home-text-container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-heading2 {
+  margin-bottom: var(--dl-space-space-tripleunit);
+}
+.home-text18 {
+  color: #353434;
+  font-size: 20px;
+  text-align: left;
+}
+.home-features-card2 {
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.home-icon-container2 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-right: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+.home-icon10 {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
+}
+.home-text-container2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-heading3 {
+  margin-bottom: var(--dl-space-space-tripleunit);
+}
+.home-text19 {
+  color: #353434;
+  font-size: 20px;
+  text-align: left;
+}
+.home-features-card3 {
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.home-icon-container3 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-right: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+.home-icon13 {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
+}
+.home-text-container3 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-heading4 {
+  margin-bottom: var(--dl-space-space-tripleunit);
+}
+.home-text20 {
+  color: rgb(53, 52, 52);
+  font-size: 20px;
+  text-align: left;
+}
+.home-features-card4 {
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.home-icon-container4 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-right: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+.home-icon16 {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
+}
+.home-text-container4 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-heading5 {
+  margin-bottom: var(--dl-space-space-tripleunit);
+}
+.home-text21 {
+  color: #353434;
+  font-size: 20px;
+  text-align: left;
+}
+.home-features-card5 {
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.home-icon-container5 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-right: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+.home-icon19 {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
+}
+.home-text-container5 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-heading6 {
+  margin-bottom: var(--dl-space-space-tripleunit);
+}
+.home-text22 {
+  color: #353434;
+  font-size: 20px;
+  text-align: left;
+}
+.home-services {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: center;
+  padding-top: var(--dl-space-space-tenunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+}
+.home-heading-container1 {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.home-text23 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.home-text24 {
+  color: var(--dl-color-gray-700);
+  text-align: center;
+}
+.home-cards-container1 {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-service-card {
+  width: 30%;
+  display: flex;
+  padding: var(--dl-space-space-fourunits);
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-900);
+}
+.home-text25 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.home-text26 {
+  color: #353434;
+  text-align: left;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.home-service-card1 {
+  width: 30%;
+  display: flex;
+  padding: var(--dl-space-space-fourunits);
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-900);
+}
+.home-text27 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.home-text28 {
+  color: #353434;
+  text-align: left;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.home-service-card2 {
+  width: 30%;
+  display: flex;
+  padding: var(--dl-space-space-fourunits);
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-900);
+}
+.home-text29 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.home-text30 {
+  color: var(--dl-color-gray-700);
+  text-align: left;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.home-text31 {
+  color: #353434;
+}
+.home-section-separator {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+.home-section-separator1 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+.home-section-separator2 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+.home-get-in-touch {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  justify-content: flex-start;
+}
+.home-text33 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.home-content-container1 {
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.home-form-container {
+  width: 40%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tenunits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-tenunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  background-color: var(--dl-color-gray-900);
+}
+.home-heading7 {
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.home-name {
+  width: 100%;
+  border: none;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.home-email {
+  width: 100%;
+  border: none;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.home-message {
+  width: 100%;
+  border: none;
+  height: 140px;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.home-cta-btn {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-tenunits);
+  border-radius: var(--dl-radius-radius-radius24);
+  padding-right: var(--dl-space-space-tenunits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.home-locations-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.home-location-1 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+}
+.home-heading8 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
+.home-adress {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+}
+.home-icon22 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.home-email1 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+}
+.home-icon24 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.home-section-separator3 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+.home-footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.home-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+}
+.home-social-links {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.home-icon26 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.home-icon28 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.home-icon30 {
+  width: 24px;
+  height: 24px;
+}
+.home-copyright-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.home-icon32 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+@media(max-width: 1200px) {
+  .home-home {
+    color: var(--dl-color-gray-black);
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .home-news {
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .home-events {
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .home-heading {
+    top: 74px;
+    left: 12px;
+  }
+  .home-text {
+    top: -30px;
+    right: -143px;
+    position: absolute;
+    align-self: center;
+  }
+  .home-text10 {
+    left: 262px;
+    color: var(--dl-color-gray-black);
+    bottom: 87px;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: rgb(8, 17, 169);
+  }
+}
+@media(max-width: 991px) {
+  .home-hero {
+    flex-direction: column-reverse;
+  }
+  .home-content-container {
+    flex-direction: column-reverse;
+  }
+  .home-text {
+    align-content: center;
+  }
+  .home-form-container {
+    width: 60%;
+  }
+  .home-locations-container {
+    flex-wrap: wrap;
+  }
+  .home-location-1 {
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+}
+@media(max-width: 767px) {
+  .home-burger-menu {
+    display: flex;
+    padding: var(--dl-space-space-halfunit);
+    background-color: var(--dl-color-gray-black);
+  }
+  .home-icon {
+    fill: var(--dl-color-gray-white);
+  }
+  .home-links-container {
+    display: none;
+  }
+  .home-text {
+    top: 6px;
+    right: -102px;
+    position: absolute;
+  }
+  .home-text10 {
+    left: 232px;
+    bottom: 20px;
+  }
+  .home-heading-container {
+    width: 100%;
+  }
+  .home-cards-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .home-features-card {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .home-features-card1 {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .home-features-card2 {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .home-features-card3 {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .home-features-card4 {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .home-features-card5 {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .home-heading-container1 {
+    width: 100%;
+  }
+  .home-cards-container1 {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .home-service-card {
+    width: 65%;
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .home-service-card1 {
+    width: 65%;
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .home-service-card2 {
+    width: 65%;
+  }
+  .home-content-container1 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .home-form-container {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .home-locations-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .home-burger-menu {
+    position: relative;
+  }
+  .home-hero {
+    height: 854px;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .home-heading {
+    top: 21px;
+    left: 21px;
+    width: 437px;
+    margin: auto;
+  }
+  .home-content-container {
+    padding-top: var(--dl-space-space-fiveunits);
+    padding-bottom: var(--dl-space-space-fiveunits);
+  }
+  .home-text {
+    top: 27px;
+    left: -110px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .home-text10 {
+    left: var(--dl-space-space-tenunits);
+    color: var(--dl-color-gray-black);
+    right: var(--dl-space-space-tenunits);
+    bottom: var(--dl-space-space-halfunit);
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: rgb(8, 17, 169);
+  }
+  .home-features {
+    padding-top: var(--dl-space-space-fiveunits);
+    padding-bottom: var(--dl-space-space-fiveunits);
+  }
+  .home-features-card {
+    width: 100%;
+  }
+  .home-features-card1 {
+    width: 100%;
+  }
+  .home-features-card2 {
+    width: 100%;
+  }
+  .home-features-card3 {
+    width: 100%;
+  }
+  .home-features-card4 {
+    width: 100%;
+  }
+  .home-features-card5 {
+    width: 100%;
+  }
+  .home-services {
+    padding-top: var(--dl-space-space-fiveunits);
+    padding-bottom: var(--dl-space-space-fiveunits);
+  }
+  .home-service-card {
+    width: 100%;
+  }
+  .home-service-card1 {
+    width: 100%;
+  }
+  .home-service-card2 {
+    width: 100%;
+  }
+  .home-content-container1 {
+    padding-left: 0px;
+  }
+  .home-form-container {
+    padding: var(--dl-space-space-tripleunit);
+    margin-right: 0px;
+  }
+  .home-heading7 {
+    text-align: center;
+  }
+  .home-location-1 {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+}
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-space-space-unit: 8px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-radius-radius-round: 50%;
+  --dl-size-size-maxcontent: 1414px;
+  --dl-space-space-halfunit: 4px;
+  --dl-space-space-tenunits: 80px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 40px;
+  --dl-space-space-fourunits: 32px;
+  --dl-radius-radius-radius24: 24px;
+  --dl-space-space-doubleunit: 16px;
+  --dl-space-space-tripleunit: 24px;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-family: Raleway;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  font-family: Raleway;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  font-family: Raleway;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.Section-Text {
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.SmallCard-Heading {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.Card-Text {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.BigCard-Heading {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.Card-Heading {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.Anchor {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.Section-Heading {
+  font-size: 48px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.22;
+  text-transform: none;
+  text-decoration: none;
+}
+ <style>
+    <title>Newsroom</title>
+    <meta property="og:title" content="Newsroom" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Raleway;
+        font-size: 18px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      html {
+      scroll-behavior: smooth;
+      }
+    </style>
+    <link rel="stylesheet"/>
+  </head>
+  <body>
+    <div>
+      <link rel="stylesheet" />
+
+      <div class="home-container">
+        <div data-role="Header" class="home-navbar-container">
+          <div class="home-navbar">
+            <div class="home-left-side">
+              <div data-role="BurgerMenu" class="home-burger-menu">
+                <svg viewBox="0 0 1024 1024" class="home-icon">
+                  <path
+                    d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="home-links-container">
+              <a  class="home-home">About</a>
+              <a  class="home-news">Features</a>
+              <a  class="home-events">News</a>
+              <a  class="home-contact-e-u">Contact EU</a>
+            </div>
+            <div class="home-right-side"></div>
+            <div data-role="MobileMenu" class="home-mobile-menu">
+              <div class="home-container1">
+                <img
+                  alt="image"
+                  src="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="home-image"
+                />
+                <div data-role="CloseMobileMenu" class="home-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="home-icon02">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="home-links-container1">
+                <a  class="home-link Anchor">Resources</a>
+                <a  class="home-link1 Anchor">Inspiration</a>
+                <a  class="home-link2 Anchor">Process</a>
+                <span class="home-link3 Anchor">Our story</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-hero">
+          <h1 class="home-heading">
+            VAT Refund System Discontinued for European Businesses: Find Out
+            Which Countries are Affected
+          </h1>
+          <div class="home-content-container">
+            <span class="home-text">
+              <span class="home-text01">
+                The VAT refund system for certain European countries has been
+                discontinued causing disruption and confusion for affected
+                businesses. An online portal has been created to help navigate
+                this change, providing information on affected countries and
+                alternative options for tax compliance. To access the list of
+                countries without VAT refund, download the file below. Stay
+                informed with updates to ensure compliance and successful
+                transition.
+              </span>
+              <br class="home-text02" />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+            </span>
+          </div>
+          <span class="home-text10 button">
+            <span>DOWNLOAD PORTAL</span>
+            <br />
+          </span>
+          <div class="home-container2"></div>
+        </div>
+        <div class="home-features">
+          <div class="home-heading-container">
+            <h2 class="home-text13 Section-Heading">
+              Which are the greatest things about it?
+            </h2>
+          </div>
+          <div class="home-cards-container">
+            <div class="home-features-card">
+              <div class="home-icon-container">
+                <svg viewBox="0 0 1024 1024" class="home-icon04">
+                  <path
+                    d="M533.333 234.667c-11.776 0-21.333 9.557-21.333 21.333s9.557 21.333 21.333 21.333c46.208 0 83.797 37.589 83.797 83.797 0 11.776 9.557 21.333 21.333 21.333s21.333-9.557 21.333-21.333c0-69.717-56.747-126.464-126.464-126.464z"
+                  ></path>
+                  <path
+                    d="M533.333 42.667c-176.469 0-320 143.531-320 320 0 63.403 18.773 124.672 54.357 177.707 0.981 2.005 2.091 3.925 3.413 5.76 77.867 111.189 91.563 146.347 91.563 179.2v128c0 23.552 19.115 42.667 42.667 42.667h85.333c0 11.093 4.693 22.187 12.373 30.293 8.107 7.68 19.2 12.373 30.293 12.373 11.093 0 22.187-4.693 30.293-12.373 7.68-8.107 12.373-19.2 12.373-30.293h85.333c23.552 0 42.667-19.115 42.667-42.667v-128c0-33.365 13.611-68.693 90.965-179.157 38.187-54.4 58.368-117.845 58.368-183.509 0-176.469-143.531-320-320-320zM618.667 810.667h-170.667v-42.667h170.667v42.667zM725.12 497.195c-62.549 89.301-91.435 140.331-101.76 185.472h-47.36v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-47.488c-10.24-43.947-38.315-93.867-98.389-180.053-0.939-1.877-2.048-3.712-3.285-5.504-28.032-39.851-42.837-86.357-42.837-134.443 0-129.408 105.259-234.667 234.667-234.667s234.667 105.259 234.667 234.667c0 48.043-14.805 94.549-42.88 134.528z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="home-text-container">
+                <span class="home-heading1 Card-Heading">Information</span>
+                <span class="home-text14">
+                  <span>
+                    Informs the reader of the discontinuation of the VAT refund
+                    system
+                  </span>
+                  <span></span>
+                  <span>for certain European countries.</span>
+                </span>
+              </div>
+            </div>
+            <div class="home-features-card1">
+              <div class="home-icon-container1">
+                <svg viewBox="0 0 1024 1024" class="home-icon07">
+                  <path
+                    d="M533.333 234.667c-11.776 0-21.333 9.557-21.333 21.333s9.557 21.333 21.333 21.333c46.208 0 83.797 37.589 83.797 83.797 0 11.776 9.557 21.333 21.333 21.333s21.333-9.557 21.333-21.333c0-69.717-56.747-126.464-126.464-126.464z"
+                  ></path>
+                  <path
+                    d="M533.333 42.667c-176.469 0-320 143.531-320 320 0 63.403 18.773 124.672 54.357 177.707 0.981 2.005 2.091 3.925 3.413 5.76 77.867 111.189 91.563 146.347 91.563 179.2v128c0 23.552 19.115 42.667 42.667 42.667h85.333c0 11.093 4.693 22.187 12.373 30.293 8.107 7.68 19.2 12.373 30.293 12.373 11.093 0 22.187-4.693 30.293-12.373 7.68-8.107 12.373-19.2 12.373-30.293h85.333c23.552 0 42.667-19.115 42.667-42.667v-128c0-33.365 13.611-68.693 90.965-179.157 38.187-54.4 58.368-117.845 58.368-183.509 0-176.469-143.531-320-320-320zM618.667 810.667h-170.667v-42.667h170.667v42.667zM725.12 497.195c-62.549 89.301-91.435 140.331-101.76 185.472h-47.36v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-47.488c-10.24-43.947-38.315-93.867-98.389-180.053-0.939-1.877-2.048-3.712-3.285-5.504-28.032-39.851-42.837-86.357-42.837-134.443 0-129.408 105.259-234.667 234.667-234.667s234.667 105.259 234.667 234.667c0 48.043-14.805 94.549-42.88 134.528z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="home-text-container1">
+                <span class="home-heading2 Card-Heading">Solution</span>
+                <span class="home-text18">
+                  Provides a solution for businesses to adjust by offering an
+                  online portal with information on affected countries and
+                  alternative options for tax compliance.
+                </span>
+              </div>
+            </div>
+            <div class="home-features-card2">
+              <div class="home-icon-container2">
+                <svg viewBox="0 0 1024 1024" class="home-icon10">
+                  <path
+                    d="M533.333 234.667c-11.776 0-21.333 9.557-21.333 21.333s9.557 21.333 21.333 21.333c46.208 0 83.797 37.589 83.797 83.797 0 11.776 9.557 21.333 21.333 21.333s21.333-9.557 21.333-21.333c0-69.717-56.747-126.464-126.464-126.464z"
+                  ></path>
+                  <path
+                    d="M533.333 42.667c-176.469 0-320 143.531-320 320 0 63.403 18.773 124.672 54.357 177.707 0.981 2.005 2.091 3.925 3.413 5.76 77.867 111.189 91.563 146.347 91.563 179.2v128c0 23.552 19.115 42.667 42.667 42.667h85.333c0 11.093 4.693 22.187 12.373 30.293 8.107 7.68 19.2 12.373 30.293 12.373 11.093 0 22.187-4.693 30.293-12.373 7.68-8.107 12.373-19.2 12.373-30.293h85.333c23.552 0 42.667-19.115 42.667-42.667v-128c0-33.365 13.611-68.693 90.965-179.157 38.187-54.4 58.368-117.845 58.368-183.509 0-176.469-143.531-320-320-320zM618.667 810.667h-170.667v-42.667h170.667v42.667zM725.12 497.195c-62.549 89.301-91.435 140.331-101.76 185.472h-47.36v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-47.488c-10.24-43.947-38.315-93.867-98.389-180.053-0.939-1.877-2.048-3.712-3.285-5.504-28.032-39.851-42.837-86.357-42.837-134.443 0-129.408 105.259-234.667 234.667-234.667s234.667 105.259 234.667 234.667c0 48.043-14.805 94.549-42.88 134.528z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="home-text-container2">
+                <span class="home-heading3 Card-Heading">Call-to Action</span>
+                <span class="home-text19">
+                  Includes a specific call-to-action for accessing a list of
+                  affected countries.
+                </span>
+              </div>
+            </div>
+            <div class="home-features-card3">
+              <div class="home-icon-container3">
+                <svg viewBox="0 0 1024 1024" class="home-icon13">
+                  <path
+                    d="M533.333 234.667c-11.776 0-21.333 9.557-21.333 21.333s9.557 21.333 21.333 21.333c46.208 0 83.797 37.589 83.797 83.797 0 11.776 9.557 21.333 21.333 21.333s21.333-9.557 21.333-21.333c0-69.717-56.747-126.464-126.464-126.464z"
+                  ></path>
+                  <path
+                    d="M533.333 42.667c-176.469 0-320 143.531-320 320 0 63.403 18.773 124.672 54.357 177.707 0.981 2.005 2.091 3.925 3.413 5.76 77.867 111.189 91.563 146.347 91.563 179.2v128c0 23.552 19.115 42.667 42.667 42.667h85.333c0 11.093 4.693 22.187 12.373 30.293 8.107 7.68 19.2 12.373 30.293 12.373 11.093 0 22.187-4.693 30.293-12.373 7.68-8.107 12.373-19.2 12.373-30.293h85.333c23.552 0 42.667-19.115 42.667-42.667v-128c0-33.365 13.611-68.693 90.965-179.157 38.187-54.4 58.368-117.845 58.368-183.509 0-176.469-143.531-320-320-320zM618.667 810.667h-170.667v-42.667h170.667v42.667zM725.12 497.195c-62.549 89.301-91.435 140.331-101.76 185.472h-47.36v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-47.488c-10.24-43.947-38.315-93.867-98.389-180.053-0.939-1.877-2.048-3.712-3.285-5.504-28.032-39.851-42.837-86.357-42.837-134.443 0-129.408 105.259-234.667 234.667-234.667s234.667 105.259 234.667 234.667c0 48.043-14.805 94.549-42.88 134.528z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="home-text-container3">
+                <span class="home-heading4 Card-Heading">Updates</span>
+                <span class="home-text20">
+                  Emphasizes the importance of staying informed with updates to
+                  ensure compliance and a successful transition.
+                </span>
+              </div>
+            </div>
+            <div class="home-features-card4">
+              <div class="home-icon-container4">
+                <svg viewBox="0 0 1024 1024" class="home-icon16">
+                  <path
+                    d="M533.333 234.667c-11.776 0-21.333 9.557-21.333 21.333s9.557 21.333 21.333 21.333c46.208 0 83.797 37.589 83.797 83.797 0 11.776 9.557 21.333 21.333 21.333s21.333-9.557 21.333-21.333c0-69.717-56.747-126.464-126.464-126.464z"
+                  ></path>
+                  <path
+                    d="M533.333 42.667c-176.469 0-320 143.531-320 320 0 63.403 18.773 124.672 54.357 177.707 0.981 2.005 2.091 3.925 3.413 5.76 77.867 111.189 91.563 146.347 91.563 179.2v128c0 23.552 19.115 42.667 42.667 42.667h85.333c0 11.093 4.693 22.187 12.373 30.293 8.107 7.68 19.2 12.373 30.293 12.373 11.093 0 22.187-4.693 30.293-12.373 7.68-8.107 12.373-19.2 12.373-30.293h85.333c23.552 0 42.667-19.115 42.667-42.667v-128c0-33.365 13.611-68.693 90.965-179.157 38.187-54.4 58.368-117.845 58.368-183.509 0-176.469-143.531-320-320-320zM618.667 810.667h-170.667v-42.667h170.667v42.667zM725.12 497.195c-62.549 89.301-91.435 140.331-101.76 185.472h-47.36v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-47.488c-10.24-43.947-38.315-93.867-98.389-180.053-0.939-1.877-2.048-3.712-3.285-5.504-28.032-39.851-42.837-86.357-42.837-134.443 0-129.408 105.259-234.667 234.667-234.667s234.667 105.259 234.667 234.667c0 48.043-14.805 94.549-42.88 134.528z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="home-text-container4">
+                <span class="home-heading5 Card-Heading">
+                  Easy to understand
+                </span>
+                <span class="home-text21">
+                  Brief and easy to understand, making it easy for businesses to
+                  take action.
+                </span>
+              </div>
+            </div>
+            <div class="home-features-card5">
+              <div class="home-icon-container5">
+                <svg viewBox="0 0 1024 1024" class="home-icon19">
+                  <path
+                    d="M533.333 234.667c-11.776 0-21.333 9.557-21.333 21.333s9.557 21.333 21.333 21.333c46.208 0 83.797 37.589 83.797 83.797 0 11.776 9.557 21.333 21.333 21.333s21.333-9.557 21.333-21.333c0-69.717-56.747-126.464-126.464-126.464z"
+                  ></path>
+                  <path
+                    d="M533.333 42.667c-176.469 0-320 143.531-320 320 0 63.403 18.773 124.672 54.357 177.707 0.981 2.005 2.091 3.925 3.413 5.76 77.867 111.189 91.563 146.347 91.563 179.2v128c0 23.552 19.115 42.667 42.667 42.667h85.333c0 11.093 4.693 22.187 12.373 30.293 8.107 7.68 19.2 12.373 30.293 12.373 11.093 0 22.187-4.693 30.293-12.373 7.68-8.107 12.373-19.2 12.373-30.293h85.333c23.552 0 42.667-19.115 42.667-42.667v-128c0-33.365 13.611-68.693 90.965-179.157 38.187-54.4 58.368-117.845 58.368-183.509 0-176.469-143.531-320-320-320zM618.667 810.667h-170.667v-42.667h170.667v42.667zM725.12 497.195c-62.549 89.301-91.435 140.331-101.76 185.472h-47.36v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-47.488c-10.24-43.947-38.315-93.867-98.389-180.053-0.939-1.877-2.048-3.712-3.285-5.504-28.032-39.851-42.837-86.357-42.837-134.443 0-129.408 105.259-234.667 234.667-234.667s234.667 105.259 234.667 234.667c0 48.043-14.805 94.549-42.88 134.528z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="home-text-container5">
+                <span class="home-heading6 Card-Heading">Feature Six</span>
+                <span class="home-text22">
+                  Provides businesses with the necessary information and
+                  resources to navigate the change in VAT refund system.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-services">
+          <div class="home-heading-container1">
+            <h1 class="home-text23 Section-Heading">More things to explore</h1>
+            <span class="home-text24 Section-Text">
+              Latest news from EU institutions and bodies
+            </span>
+          </div>
+          <div class="home-cards-container1">
+            <div class="home-service-card">
+              <h3 class="home-text25 Card-Heading">Resources</h3>
+              <span class="home-text26">
+                Food security and ecosystem resilience: Commission boosts action
+                on pollinators
+              </span>
+              <span class="Anchor">Learn more</span>
+            </div>
+            <div class="home-service-card1">
+              <h3 class="home-text27 Card-Heading">Community</h3>
+              <span class="home-text28">
+                Commission sets out concrete actions for greater involvement of
+                social partners at national and EU level
+              </span>
+              <span class="Anchor">Learn more</span>
+            </div>
+            <div class="home-service-card2">
+              <h3 class="home-text29 Card-Heading">Newsroom</h3>
+              <span class="home-text30">
+                <span class="home-text31">
+                  Ukraine war: European Parliament pushes for special tribunal
+                  to punish Russian crimes
+                </span>
+                <span class="Card-Text"></span>
+              </span>
+              <span class="Anchor">Learn more</span>
+            </div>
+          </div>
+        </div>
+        <div class="home-section-separator"></div>
+        <div class="home-section-separator1"></div>
+        <div class="home-section-separator2"></div>
+        <div class="home-get-in-touch">
+          <h2 class="home-text33 Section-Heading">Get in touch</h2>
+          <div class="home-content-container1">
+            <div class="home-form-container">
+              <span class="home-heading7 BigCard-Heading">
+                Send us a message
+              </span>
+              <input
+                type="text"
+                required="true"
+                placeholder="Name"
+                class="home-name input"
+              />
+              <input
+                type="text"
+                required="true"
+                placeholder="E-mail"
+                class="home-email input"
+              />
+              <textarea
+                placeholder="Your Message"
+                class="home-message textarea"
+              ></textarea>
+              <button class="home-cta-btn Anchor button">SEND</button>
+            </div>
+            <div class="home-locations-container">
+              <div class="home-location-1">
+                <span class="home-heading8">EUROPEAN UNION&nbsp;</span>
+                <div class="home-adress">
+                  <svg viewBox="0 0 1024 1024" class="home-icon22">
+                    <path
+                      d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"
+                    ></path>
+                  </svg>
+                  <span>
+                    Rue de la Loi/Wetstraat 17B-1048
+                    Bruxelles/BrusselBelgique/België
+                  </span>
+                </div>
+                <div class="home-email1">
+                  <svg viewBox="0 0 1024 1024" class="home-icon24">
+                    <path
+                      d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+                    ></path>
+                  </svg>
+                  <span>+32 22816111</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-section-separator3"></div>
+        <div class="home-footer-container">
+          <div class="home-footer">
+            <div class="home-social-links">
+              <svg viewBox="0 0 950.8571428571428 1024" class="home-icon26">
+                <path
+                  d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                ></path></svg
+              ><svg viewBox="0 0 877.7142857142857 1024" class="home-icon28">
+                <path
+                  d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
+                ></path></svg
+              ><svg viewBox="0 0 877.7142857142857 1024" class="home-icon30">
+                <path
+                  d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                ></path>
+              </svg>
+            </div>
+            <div class="home-copyright-container">
+              <svg viewBox="0 0 1024 1024" class="home-icon32">
+                <path
+                  d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
+                ></path>
+              </svg>
+              <span class="Anchor">Copyright, 2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>
